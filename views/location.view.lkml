@@ -23,6 +23,7 @@ view: location {
 
   dimension: locn_sk {
     type: number
+    primary_key: yes
     sql: ${TABLE}.locn_sk ;;
   }
 

@@ -99,6 +99,7 @@ view: shipment_aging_detail {
 
   dimension: curr_loc_fk {
     type: number
+    primary_key: yes
     sql: ${TABLE}.curr_loc_fk ;;
   }
 
@@ -168,7 +169,6 @@ view: shipment_aging_detail {
 
   dimension: fill_loc_fk {
     type: number
-    primary_key: yes
     sql: ${TABLE}.fill_loc_fk ;;
   }
 
